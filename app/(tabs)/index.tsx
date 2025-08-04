@@ -1,9 +1,5 @@
-import { Text, View } from 'react-native';
+import SurveyScreen from '../survey';
 
-export default function Home() {
-  return (
-    <View>
-      <Text>Welcome Home!</Text>
-    </View>
-  );
+export default function Index() {
+  return <SurveyScreen />;
 }

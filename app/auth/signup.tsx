@@ -43,7 +43,7 @@ export default function Signup() {
       console.log('Account created for:', userCredential.user.email);
 
       // Step 3: Redirect to main app
-      router.replace('/(tabs)');
+      router.replace('/survey');
     } catch (error: any) {
       // Step 4: Handle Firebase errors
       const code = error.code;
