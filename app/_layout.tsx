@@ -23,6 +23,7 @@ export default function RootLayout() {
        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
        <Stack.Screen name="auth" options={{ headerShown: false }} /> {/* ✅ This line fixes your issue */}
        <Stack.Screen name="+not-found" />
+        <Stack.Screen name="survey" options={{ headerShown: false }} />
      </Stack>
      <StatusBar style="auto" />
     </ThemeProvider>
